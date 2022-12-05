@@ -13,9 +13,35 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+.product-detail{
+  display:flex; /*반응형으로 만들어줌*/
+}
+.info {
+  padding: 25px;
+}
+.text-1 {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+.price {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.text-2 {
+    margin: 25px 0 35px 0;
+    font-size: 0.8125rem;
+    line-height: 1.77;
+}
 
-.product-detail img{
+
+
+.pro-info img{
+  margin: 0px;
   width: 100%;
+  padding: 0px;
+  display: block; 
+
 }
 
 .product-detail {
@@ -25,4 +51,9 @@ word-spacing: 0.1em;
 letter-spacing:-0.03em;}
 .title{
   font-family: 'GmarketSansMedium';
+}
+.pro-con-2-1 {
+  margin-top: 16px;
+  width: 50%;
+  display: flex;
 }
