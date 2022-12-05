@@ -61,3 +61,11 @@ letter-spacing:-0.03em;}
   width: 50%;
   display: flex;
 }
+.invisible {
+visibility: hidden;
+}
+#footer .container {
+flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
