@@ -100,4 +100,7 @@ footer {
   padding : 25px;
   
 }
-
+  
+details > summary {
+list-style: none;
+}
