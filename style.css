@@ -9,39 +9,48 @@ body{
     font-style: normal;
 }
 @font-face {
-    font-family: 'NanumSquareNeo-Variable';
+    font-family : 'NanumSquareNeo-Variable';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+    font-weight : normal;
+    font-style : normal;
 }
+.nav {
+  display : inline-block
+}
+.Category {
+  display : inline;
+  text-align : center;
+  list-style : none;
+}
+
 .product-detail{
-  display:flex; /*반응형으로 만들어줌*/
+  display :flex; /*반응형으로 만들어줌*/
 }
 .info {
-  padding: 25px;
+  padding : 25px;
 }
 .text-1 {
-    margin-top: 10px;
-    font-size: 0.9rem;
+    margin-top : 10px;
+    font-size : 0.9rem;
 }
 .price {
-    margin-top: 8px;
-    font-size: 0.8rem;
-    font-weight: bolder;
+    margin-top : 8px;
+    font-size : 0.8rem;
+    font-weight : bolder;
 }
 .text-2 {
-    margin: 25px 0 35px 0;
-    font-size: 0.8125rem;
-    line-height: 1.77;
+    margin : 25px 0 35px 0;
+    font-size : 0.8125rem;
+    line-height : 1.77;
 }
 .pro-text-1{
-  padding: 25px;
+  padding : 25px;
 }
 
 
 
 .pro-info img{
-  margin: 0px;
+  margin : 0px;
   width: 100%;
   padding: 0px;
   display: block; 
@@ -69,3 +78,4 @@ flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
 }
+
