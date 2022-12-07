@@ -59,6 +59,10 @@ margin : 9px ;
     font-size : 0.8rem;
     font-weight : bolder;
 }
+label {
+  font-size : 0.8rem;
+    font-weight : bolder;
+}
 .text-2 {
     margin : 25px 0 35px 0;
     font-size : 0.8125rem;
