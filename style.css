@@ -29,10 +29,11 @@ body{
 }
 
 .Category {
+  width : 60%;
   text-align : left;
   list-style : none;
   font-family: 'GmarketSansMedium';
-  font-size :15px;
+  font-size :0.9rem;
   font-weight : bolder;
   
 }
