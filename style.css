@@ -64,6 +64,10 @@ margin : 9px ;
     font-size : 0.8125rem;
     line-height : 1.77;
 }
+
+.soldout{
+      margin-top : 20px;
+}
 .co-info {
   font-family : 'NanumSquareNeo-Variable';
   font-size : 0.8125rem;
