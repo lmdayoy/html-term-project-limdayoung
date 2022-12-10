@@ -104,12 +104,20 @@ letter-spacing:-0.03em;}
   width: 50%;
   display: flex;
 }
-
+.summary__title {
+  font-family: 'GmarketSansMedium';
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
 footer {
   padding : 25px;
   
 }
   
 details > summary {
-list-style : none;
+list-style: none;
 }
+  summary {
+    cursor: pointer;
+}
+  
